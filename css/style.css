@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*== START HEADER SECTION ==*/
+
+header {
+    background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)), url(img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+    background-attachment: fixed;
+    padding-top: 20px;
+}
+
+header .logo {
+    width: 120px;
+    height: auto;
+}
+
+header svg {
+    color: #fff;
+    font-size: 38px;
+}
+
+.navbar-nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.navbar-nav li a {
+    font-size: 16px !important;
+    padding: 5px 18px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.navbar-nav li:nth-child(1) a {
+    text-decoration: none;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+.navbar-nav li a:hover {
+    text-decoration: none;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+.hd-slogan {
+    margin-top: 110px;
+    color: #fff;
+}
+
+.hd-slogan h1 {
+    margin-bottom: 50px;
+}
+
+.hd-slogan .btn {
+    padding: 10px 50px;
+    font-size: 16px;
+    color: #fff;
+    background: #eb7d4b;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hd-slogan .btn:hover {
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+/*== END HEADER SECTION ==*/
+
+/*== START SERVICES SECTION ==*/
+#services {
+    background: #17c2a4;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ml-btm {
+    margin-top: 15px;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.b-btm {
+    background: rgba(0, 0, 0, .3);
+    margin: 0 auto;
+    width: 70px;
+    height: 3px;
+    display: block;
+}
+
+.services-img {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.services-img .imgs {
+    padding: 40px;
+}
+
+/*== END SERVICES SECTION ==*/
+
+/*== START OUR TEAM SECTION ==*/
+
+#our-team {
+    background: #e7f1f8;
+    color: #000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.team {
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.team-t {
+    font-weight: 600;
+}
+
+.team-b {
+    color: #30bae7;
+}
+
+.social-icons {
+    margin-top: 5px;
+}
+
+.social-icons span {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    padding: 10px;
+    color: #000;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons span:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*== END OUR TEAM SECTION ==*/
+
+/*== END SKILLS SECTION ==*/
+
+#skills {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/skill-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.my-skills {
+    margin-top: 50px;
+}
+
+svg.radial-progress circle {
+    stroke-width: 5;
+}
+
+svg.radial-progress text {
+    fill: #000;
+}
+
+svg.wd circle {
+    stroke: #30bae7;
+}
+
+svg.hc circle {
+    stroke: #d74680;
+}
+
+svg.gd circle {
+    stroke: #15c7a8;
+}
+
+svg.uu circle {
+    stroke: #eb7d4b;
+}
+
+/*== END SKILLS SECTION ==*/
+/*== START PORTFOLIO SECTION ==*/
+
+#portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(255, 221, 153, 0.8), rgba(255, 221, 153, 0.8)), url(img/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.button-filters {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.button-filters button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ebc985;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-filters button:hover {
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.6)
+}
+
+.portfolio .mixitup-control-active {
+    background-color: #fff;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.click-js img {
+    margin: 10px;
+    width: 450px;
+}
+
+/*== END PORTFOLIO SECTION ==*/
+
+/*== START CLIENTS SECTION ==*/
+
+#client {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(215, 70, 128, 0.7), rgba(215, 70, 128, 0.7)), url(img/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.clients .clients-img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.clients .col-md-5 {
+    padding-left: 30px;
+}
+
+.clients .col-md-5 h4 {
+    font-weight: 600;
+}
+
+.clients-box .ml {
+    margin: 60px 0;
+}
+
+/*== END CLIENTS SECTION ==*/
+
+/*== START CONTACT SECTION ==*/
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(60, 84, 153, 0.9), rgba(60, 84, 153, 0.9)), url(img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.contact .box {
+    margin: auto 0;
+}
+
+.contact input::placeholder {
+    color: #fff;
+}
+
+.contact textarea::placeholder {
+    color: #fff;
+}
+
+.contact input:placeholder-shown {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.contact textarea:placeholder-shown {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.contact input:enabled {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.contact textarea:enabled {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.contact input {
+    display: inline-block;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact textarea {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    color: #fff;
+    background: #30bae7;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 3px solid #299ec5;
+    transition: 0.3s;
+}
+
+/*== END CONTACT SECTION ==*/
+/*== START FOOTER SECTION ==*/
+
+#footer {
+    padding: 40px 0;
+    background-color: #344b8e;
+    color: #fff;
+}
+
+.footer span {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer span a {
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer span a:hover {
+    color: #327fb8;
+    text-decoration: none;
+}
+
+/*== END FOOTER SECTION ==*/
+
+@media screen and (max-width: 479px) {
+
+    /*== START PORTFOLIO SECTION ==*/
+    .navbar-nav li:first-child {
+        margin-top: 20px;
+    }
+
+    .button-filters button {
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ebc985;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .click-js img {
+        margin: 10px;
+        width: 400px;
+    }
+
+    .clients-box {
+        text-align: center;
+    }
+
+    /*== END PORTFOLIO SECTION ==*/
+
+}
